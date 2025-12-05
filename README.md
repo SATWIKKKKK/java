@@ -1,5 +1,4 @@
 <img width="5402" height="1500" alt="image" src="https://github.com/user-attachments/assets/b4101907-5676-4b3a-81cb-8383552c019a" />
-# java
 
 # JAVA LAB – DAY 01
 
