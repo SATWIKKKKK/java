@@ -10,7 +10,10 @@ In this session, we learned:
 - How to create a **Java Project**
 - How to write, run, commit & push the first **HelloWorld** program
 
-
+## Author
+Name :- Satwik Chandra
+Section:- CSE-33
+Roll No:- 2405900
 
 ##  1. Setting Up IntelliJ IDEA
 
