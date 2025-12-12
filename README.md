@@ -1,8 +1,8 @@
-# java
+
 
 # JAVA LAB – DAY 01
 
-##  Introduction
+## Introduction
 Welcome to **Java Lab Day-01**.  
 In this session, we learned:
 
@@ -10,9 +10,9 @@ In this session, we learned:
 - How to create a **Java Project**
 - How to write, run, commit & push the first **HelloWorld** program
 
+---
 
-
-##  1. Setting Up IntelliJ IDEA
+## 1. Setting Up IntelliJ IDEA
 
 ### **Step 1: Install IntelliJ IDEA**
 Download from: https://www.jetbrains.com/idea/
@@ -22,7 +22,7 @@ Choose either:
 - **Ultimate Edition (Paid)**
 
 
-## 2. Creating Your First Java Project
+##  2. Creating Your First Java Project
 
 ### **Steps:**
 1. Open IntelliJ IDEA
@@ -36,6 +36,7 @@ Choose either:
 8. Name the class: `HelloWorld`
 
 
+
 ##  3. Writing Your First Java Program
 
 Create a file named `HelloWorld.java` inside the `src` folder.
@@ -43,6 +44,4 @@ Create a file named `HelloWorld.java` inside the `src` folder.
 ```java
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Hello World");
-    }
-}
+        System.out
