@@ -3,7 +3,7 @@ class evenodd {
 
         int evenCount = 0, oddCount = 0;
 
-        // Check if exactly 10 numbers are provided
+
         if (args.length != 10) {
             System.out.println("Please enter exactly 10 numbers.");
             return;

@@ -1,34 +1,34 @@
-import java.util.Scanner;
+class Box {
+    private double length;
+    private double width;
+    private double height;
 
-class Box{
-    double length, width, height;
+    public Box(double length, double width, double height) {
+        this.length = length;
+        this.width = width;
+        this.height = height;
+    }
 
-    // Method to calculate volume
-    double volume() {
+    public double volume() {
         return length * width * height;
     }
 }
 
-class Demo{
+public class Demo {
     public static void main(String[] args) {
+        java.util.Scanner scanner = new java.util.Scanner(System.in);
 
-        Scanner sc = new Scanner(System.in);
-
-        Box b = new Box();
-
-        // Input
         System.out.print("Enter length: ");
-        b.length = sc.nextDouble();
+        double length = scanner.nextDouble();
 
         System.out.print("Enter width: ");
-        b.width = sc.nextDouble();
+        double width = scanner.nextDouble();
 
         System.out.print("Enter height: ");
-        b.height = sc.nextDouble();
+        double height = scanner.nextDouble();
 
-        // Output
-        System.out.println("Volume of the box = " + b.volume());
+        Box box = new Box(length, width, height);
+        System.out.println("Volume: " + box.volume());
 
-        sc.close();
+        scanner.close();
     }
-}

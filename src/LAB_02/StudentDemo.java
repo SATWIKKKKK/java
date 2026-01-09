@@ -5,7 +5,7 @@ class Student {
     String name;
     double cgpa;
 
-    // Method to read student details
+
     void read(Scanner sc) {
         System.out.print("Enter Roll No: ");
         roll = sc.nextInt();
@@ -18,7 +18,7 @@ class Student {
         cgpa = sc.nextDouble();
     }
 
-    // Method to display student details
+
     void display() {
         System.out.println(roll + "\t" + name + "\t" + cgpa);
     }
@@ -34,20 +34,20 @@ public class StudentDemo {
 
         Student[] s = new Student[n];
 
-        // Input
+
         for (int i = 0; i < n; i++) {
             System.out.println("\nEnter details of Student " + (i + 1));
             s[i] = new Student();
             s[i].read(sc);
         }
 
-        // Display all students
+
         System.out.println("\nRoll\tName\tCGPA");
         for (int i = 0; i < n; i++) {
             s[i].display();
         }
 
-        // Find student with lowest CGPA
+
         int minIndex = 0;
         for (int i = 1; i < n; i++) {
             if (s[i].cgpa < s[minIndex].cgpa) {
